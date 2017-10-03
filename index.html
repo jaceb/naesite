@@ -31,6 +31,8 @@
   <!-- Include js plugin -->
   <script src="js/jquery.min.js"></script>
   <script src="js/owl.carousel.min.js"></script>
+  <script src="js/owl.lazyload.js"></script>
+  <script src="js/owl.autoplay.js"></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -102,7 +104,8 @@
               <script>
               $(document).ready(function() {
 
-  $(".owl-carousel").owlCarousel({items:3,
+  $(".owl-carousel").owlCarousel({
+    items:3,
     lazyLoad:true,
     loop:true,
     margin:10});
